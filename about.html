@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+
+    
+        <nav class="nav1">
+            <ul class="sidebar">
+                <li onclick=closeSidebar() class="sid"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#service">Web Features</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li class="hideOnMobile"><img src="pics/lb-high-resolution-logo-black-transparent.png" alt=""></li>
+                <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="#service">Web Features</a></li>
+                <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>   
+
+
+        <div class="about">
+            <h1 class="about-title">About Us</h1>
+            <p class="about2">We believe in making a difference for our clients. From the moment you arrive,
+                 our goal is to provide you with a seamless experience and exceptional service. 
+                 Let us guide you through a journey of seamless web experiences and limitless possibilities.</p>
+            <div class="aboutContent">
+
+                <div class="about1">
+                    <img src="pics/vap2.jpg" alt="vap" class="img">
+                    <h3>Welcome to Livelinks</h3>
+                    <p class="aboutp">Welcome to Livelinks! We create 
+                        stunning, user-friendly front-end solutions that turn 
+                        visions into reality.</p>
+
+
+                    
+                </div>
+                <div class="about1">
+                    <img src="pics/vap1.jpg" alt="" class="img">
+                    <h3>Our Expertise</h3>
+                    <p class="aboutp">Our team excels in HTML, CSS, 
+                        JavaScript, and NodeJs. We create 
+                        custom websites that deliver outstanding user experiences.</p>
+                </div>
+
+                <div class="about1">
+                    <img src="pics/vap3.jpg" class="img">
+                    <h3>Our Approach</h3>
+                    <p class="aboutp">We work with you to tailor each project to your
+                         needs. Thank you for choosing us as your web development partner. 
+                         Let's create something amazing together.</p>
+
+
+
+                </div>
+                
+                  
+            </div>
+        </div>
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="contain">
+              <div class="row1">
+                
+                <div class="footer-col">
+                  <h4>Company</h4>
+                  <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Affiliate Program</a></li>
+                  </ul>
+                </div>
+        
+                <div class="footer-col">
+                  <h4>Get Help</h4>
+                  <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Testing</a></li>
+                    <li><a href="#">Money Back Guarantee</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                  </ul>
+                </div>
+        
+                <div class="footer-col">
+                  <h4>Follow Us</h4>
+                  <div class="social-links">
+                    <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-tiktok-line"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        
+        
+
+
+
+
+
+
+
+
+        <script>
+            function showSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function closeSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+    
+</body>
+</html>

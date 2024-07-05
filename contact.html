@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="nav1">
+        <ul class="sidebar">
+            <li onclick=closeSidebar() class="sid"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#service">Web Features</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><img src="pics/lb-high-resolution-logo-black-transparent.png" alt=""></li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="#service">Web Features</a></li>
+            <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>   
+
+    <div class="contact">
+        <h1 class="contact-title"> Let's Start the <br>Conversation</h1>
+        <p class="tit"> From your first contact with us, we strive to offer a seamless experience and exceptional service. Let us guide you
+             through a journey of seamless web experiences and endless possibilities.</p>
+    </div>
+
+    <div class="contactcont">
+        <div class="pics">
+            <img src="pics/IMG_7923.jpg" alt="" class="pic">
+        </div>
+        <div class="phones">
+            <div class="item">
+            <h4 class="li">Phone</h4>
+            <span class="l">+995 574 06 54 66</span></div>
+
+            <div class="item">
+            <h4 class="li">Gmail</h4>
+            <span class="l">livelinkstbilisi@Gmail.com</span></div>
+
+            <div class="item">
+            <h4 class="li">Address</h4>
+            <span class="l">Georgia, Tbilisi</span></div>
+
+        </div>
+        <div class="pics">
+            <img src="pics/IMG_7924.jpg" alt="" class="pic">
+            
+        </div>
+        
+
+    </div>
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="contain">
+          <div class="row1">
+            
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Affiliate Program</a></li>
+              </ul>
+            </div>
+    
+            <div class="footer-col">
+              <h4>Get Help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Testing</a></li>
+                <li><a href="#">Money Back Guarantee</a></li>
+                <li><a href="#">Payment Options</a></li>
+              </ul>
+            </div>
+    
+            <div class="footer-col">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-tiktok-line"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+    
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function closeSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+    
+</body>
+</html>

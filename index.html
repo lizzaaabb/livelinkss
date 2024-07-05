@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+    <nav class="nav1">
+        <ul class="sidebar">
+            <li onclick=closeSidebar() class="sid"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#service">Web Features</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><img src="pics/lb-high-resolution-logo-black-transparent.png" alt=""></li>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#service">Web Features</a></li>
+            <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <div class="landing-page">
+       <div class="landing-left">
+        <h1 class="landingTitle">LIVELINKS<span class="dot">.</span></h1>
+        <span class="landing_desc">Digital Excellence Delivered</span>
+        <div class="buttons">
+            <a href="https://calendly.com/livelinkstbilisi/consultation" class="link1" target="_blank"><button class="btn_book">Book a call</button></a>
+            <button class="btn_contact"><a href="contact.html">Contact Us</a></button>
+        </div>
+       </div>
+
+       <div class="landing-right">
+        <pre class="language-css" tabindex="0"><code class="language-css"><span class="token selector">.awesome-layouts</span><span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span>grid<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+        <h4 class="heading">Where Pixels Party <br> Crafting Web <span class="magic">Magic</span> <img src="pics/star.png" class="star"> with Style and Smarts.
+            Elegance in Code, Awesomeness in Design.</h4>
+       </div>    
+    </div>
+
+    <div class="features" id="features">
+        <div class="feature">
+            <img src="pics/cash-back.png" class="featureImg">
+            <span class="featureTitle">Money-Back Guarantee</span>
+            <div class="featureDesc">Offering a refund policy if you are not satisfied with the delivered service.</div>
+        </div>
+        <div class="feature">
+            <img src="pics/best-price (1).png" class="featureImg">
+            <span class="featureTitle">Transparent Pricing</span>
+            <div class="featureDesc">Clear and upfront pricing structures to build trust and transparency.</div>
+        </div>
+        <div class="feature">
+            <img src="pics/customer-service (1).png" class="featureImg">
+            <span class="featureTitle">Support</span>
+            <div class="featureDesc">Keep in touch via email with our customer support.</div>
+        </div>
+        <div class="feature">
+            <img src="pics/rating.png" class="featureImg">
+            <span class="featureTitle">Customer-Centric Approach</span>
+            <div class="featureDesc">Placing your needs and goals at the forefront of all decision-making processes.</div>
+        </div>
+    </div>
+
+    <div class="projects">
+        <h3 class="projectstitle">Past Projects</h3>
+        <div class="all-projects">
+            <div class="project">
+                <img src="pics/s4.jpg" alt="web project" class="projectimg">
+                <div class="info">
+                    <h4 class="project-title">Agency Website</h4>
+                    <p class="project-desc">Elegant interfaces, robust functionality, seamless user experiences.</p>
+                    <a href="https://lizzaaabb.github.io/digagency/" class="project-btn" target="_blank">View Website</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="pics/s3.jpg" alt="web project" class="projectimg">
+                <div class="info">
+                    <h4 class="project-title">Business Website</h4>
+                    <p class="project-desc">Responsive layout, elegant interface, engaging user interactions.</p>
+                    <a href="https://lizzaaabb.github.io/busweb/" class="project-btn" target="_blank">View Website</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="pics/s2.jpg" alt="web project" class="projectimg">
+                <div class="info">
+                    <h4 class="project-title">Flower Shop</h4>
+                    <p class="project-desc">Exquisite arrangements, user-friendly, delightful floral browsing.</p>
+                    <a href="https://lizzaaabb.github.io/flowershop/#" class="project-btn" target="_blank">View Website</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="pics/s1.jpg" alt="web project" class="projectimg">
+                <div class="info">
+                    <h4 class="project-title">Perfume Website</h4>
+                    <p class="project-desc">Sophisticated perfumes, elegant site, indulging in luxury fragrance.</p>
+                    <a href="https://lizzaaabb.github.io/parfum/" class="project-btn" target="_blank">View Website</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="ready">
+        <div class="readyleft">
+            <h2 class="readytitle">
+                We're Ready<span class="wert">.</span><br>
+                Are You?
+            </h2>
+        </div>
+        <div class="readyright">
+            <span class="rightcontent">
+                Book a discovery call with our team now.<br>
+                Let us show you how we can enhance your<br>
+                online presence with stunning designs that <br>
+                captivate users and drive exceptional business<br> growth.
+
+            </span>
+            <a href="https://calendly.com/livelinkstbilisi/consultation" class="link1" target="_blank"><button class="readybtn">Book a call</button></a>
+
+        </div>
+    </div>
+        <div class="container2" id="service">
+            <div class="service-wrapper">
+                <div class="service">
+                    <h2>Website Features</h2>
+                    <p class="servicep">Our website features are designed to enhance your online presence.<br> From seamless user interfaces to custom design solutions, we offer tailored front-end solutions to meet your business needs.</p>
+
+                         <div class="lards">
+                            <div class="lard">
+                                <i class="ri-cast-line"></i>
+                                <h3>Landing Page</h3>
+                                <p>Explore captivating landing pages that engage and convert. From sleek product showcases to compelling service introductions, elevate your online presence effortlessly.</p>
+                            </div>
+
+                            <div class="lard">
+                                <i class="ri-chat-quote-line"></i>
+                                <h3>Client Testimonials</h3>
+                                <p>Present customer reviews in sleek, customizable sections. Highlight client feedback prominently to build trust and credibility.</p>
+                            </div>
+
+                            <div class="lard">
+                                <i class="ri-group-fill"></i>
+                                <h3>Team Members Slider</h3>
+                                <p>Engagingly showcase team profiles with customizable designs enhancing your website's professionalism.</p>
+                            </div>
+
+                            <div class="lard">
+                                <i class="ri-service-line"></i>
+                                <h3>Services Section</h3>
+                                <p>Dynamic displays that expertly highlight you expertise with engaging designs and customizable features.</p>
+                            </div>
+
+                            <div class="lard">
+                                <i class="ri-discuss-line"></i>
+                                <h3>About Us Section</h3>
+                                <p>Craft compelling narratives that tell your business story. Enhance engagement with customizable layouts that reflect your unique mission and values.</p>
+                            </div>
+
+                            <div class="lard">
+                                <i class="ri-settings-3-line"></i>
+                                <h3>Custom Features</h3>
+                                <p>Tailor your website with <br>features that reflect your unique business needs and goals. Share your vision, and we'll bring it to life.</p>
+                            </div>
+                         </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Plans & Pricing</h2>
+            <div class="pricing">
+                <div class="pricingleft">
+                    <div class="pricingcard card1">
+                        <h3>Standard</h3>
+                        <p>Responsive Design<br>
+                            Compelling Landing Page<br>
+                            Service Section<br>
+                            About Us Section</p>
+                            
+                        <div class="price"><span>$9</span>/Per Feature</div>
+                    </div>
+    
+                    <div class="pricingcard card2">
+                        <h3>Premium</h3>
+                        <p>Responsive Design<br>
+                            Captivating Landing Page<br>
+                            Team Slider<br>
+                            Services & More</p>
+                        <div class="price"><span>$19</span>/Per Feature</div>
+                    </div>
+    
+                </div>
+                <div class="pricingright">
+
+                    <span>For more detailed information, please do not hesitate <br> to reach out to us. Our team is available to provide detailed <br> insights and answer any questions you may have.</span>
+    
+                    </a><div class="pricingbtn"><a href="contact.html" class="pricelink">Contact Us </a></div>
+
+    
+                </div>
+    
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="contain">
+              <div class="row1">
+                
+                <div class="footer-col">
+                  <h4>Company</h4>
+                  <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Affiliate Program</a></li>
+                  </ul>
+                </div>
+        
+                <div class="footer-col">
+                  <h4>Get Help</h4>
+                  <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Testing</a></li>
+                    <li><a href="#">Money Back Guarantee</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                  </ul>
+                </div>
+        
+                <div class="footer-col">
+                  <h4>Follow Us</h4>
+                  <div class="social-links">
+                    <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-tiktok-line"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        
+        
+
+            
+
+
+
+
+
+
+
+     
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function closeSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>
